@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
+import Footer from './Footer';
+import Thirbooknow from './ThirdP';
+import CheckOutmain from './checkout/CheckOutmain';
+import { BrowserRouter } from 'react-router-dom';
+
 
 ReactDOM.render(
+
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
   </React.StrictMode>,
+
   document.getElementById('root')
 );
 

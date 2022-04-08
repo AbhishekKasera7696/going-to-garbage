@@ -2,5 +2,9 @@
     background-color: black;
     color: white;
     padding: 10px;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 5px;
+
+min-width: none
+
 }
+
